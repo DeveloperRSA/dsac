@@ -69,12 +69,10 @@ export default function DSACDashboard() {
             head: true,
           })
           .in('status', [
-            'ASSIGNED',
+            'DRAFT',
             'IN PROGRESS',
-            'SUBMITTED',
             'UNDER REVIEW',
             'ACTION REQUIRED',
-            'RESUBMITTED',
           ]),
 
         supabase
