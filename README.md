@@ -1,5 +1,5 @@
-##TO DO:
+## TO DO:
 API layer 
 
-##Note:
+## Note:
 ignore the readme this is the backup
