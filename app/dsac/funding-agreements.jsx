@@ -148,6 +148,7 @@ export default function FundingAgreementsScreen() {
         organisation_id: selectedOrganisation.id,
         allocated_amount: numericAmount,
         currency: 'ZAR',
+        funding_year: new Date(startDate.trim()).getFullYear(),
         start_date: startDate.trim(),
         end_date: endDate.trim(),
         status: 'ACTIVE',
